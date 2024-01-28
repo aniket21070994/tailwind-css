@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
+    <link rel="stylesheet" href="../src/output.css">
+    <script src="https://kit.fontawesome.com/a0c842bc83.js" crossorigin="anonymous"></script>
+    <title>wallset</title>
+</head>
+<style>
+
+   .show{
+      display: none;
+   }
+   .menu2{
+      display:block;
+   }
+</style>
+<script>
+
+const menu=()=>{
+   document.getElementById("menu").style.display = "block";
+   document.getElementById("menu2").style.display='none'
+  
+   
+
+}
+const backmenu=()=>{
+   document.getElementById("menu").style.display = "none";
+document.getElementById("menu2").style.display='block'
+}
+
+</script>
+<body class="">
+   
+   
+    
+    
+    <!--Nav Bar-->
+    <nav id="home" class=" w-full h-16 px-5  pt-3 absolute top-0">
+        <ul class="flex flex-row justify-start max-sm:justify-between ">
+            <li class="text-purple-200 font-extrabold cursor-pointer sm:text-white">Wallset</li>
+            <li id="menu2" class="text-purple-200 sm:hidden " onclick="menu()"><img src="../public/icons/icons8-navigation-menu-32.png" alt="" class="cursor-pointer bg-purple-200"></li>
+            <li class="text-purple-200 max-sm:hidden md:ml-[75%]  sm:ml-[70%] hover:font-semibold w-14  h-8 hover:border-b-4 border-purple-400 rounded-b-lg pl-1 cursor-pointer  sm:text-white"><a href="#home">Home</a></li>
+            <li class="text-purple-200 max-sm:hidden  sm:ml-[3%] hover:font-semibold  w-14  h-8 hover:border-b-4 border-purple-400 rounded-b-lg pl-1 cursor-pointer sm:text-white"><a href="#About">About</a></li>
+        </ul>
+
+        <ul id="menu" style="display:none" class=" h-52 border-2 w-32  space-y-10  absolute top-3 right-4">
+         <li class="h-4 pl-2 cursor-pointer"><i onclick='backmenu()'  class="fa-regular fa-rectangle-xmark"></i></li>
+         <li class="font-semibold pl-10 text-white"><a href="#Home">Home</a></li>
+         <li class="font-semibold pl-10 text-white"><a href="About">About</a></li>
+        </ul>
+
+    </nav>
+
+   <!--phone view -->
+   
+    <div class=" sm:hidden h-96 bg-cover flex flex-col justify-center " style="background-image: url(https://i.pinimg.com/originals/2f/d6/bd/2fd6bd9fd8c761935d991e592d8f6d6b.jpg)">
+       
+       <ul class="pl-4 w-80 overflow-x-hidden">
+          <li class="text-white text-[24px] w-96 font-serif"> Dive into Our Diverse Wallpaper Universe</li>
+          <li class="text-white mt-5 font-thin w-96 text-[15px]">Use the concept of a "wallpaper universe" to suggest a vast and varied collection for users to explore.</li>
+       </ul>
+       <ul class="flex flex-row justify-between ml-5  mt-10 mr-5 text-white font-mono">
+        <li class="border-y-2 hover:border-x-2 hover:border-y-0 hover:shadow-md hover:border-b-purple-400 hover:text-pink-400 rounded-lg h-8"><a href="#Animal">Animals</a></li>
+        <li class="border-y-2 hover:border-x-2 hover:border-y-0 hover:shadow-md hover:border-b-purple-400 hover:text-pink-400 rounded-lg h-8"><a href="#Nature">Nature</a></li>
+        <li class="border-y-2 hover:border-x-2 hover:border-y-0 hover:shadow-md hover:border-b-purple-400 hover:text-pink-400 rounded-lg h-8"><a href="#Universe">Universe</a></li>
+        <li class="border-y-2 hover:border-x-2 hover:border-y-0 hover:shadow-md hover:border-b-purple-400 hover:text-pink-400 rounded-lg h-8"><a href="#Night">Night Mountain</a></li>
+    </ul>
+     
+    </div>
+    <!--desktop viwe-->
+    
+    <div style=" background-image: url(https://pbs.twimg.com/media/Dh2uL7JWsAACIiU.jpg)" class="to-white bg-cover bg-center max-sm:hidden border-2 border-red-400 flex flex-col justify-center w-[100vw] h-[100vh] sm:block  ">
+ 
+         <ul class="sm:pt-[30%] lg:pt-[20%] ">
+            <li class="font-mono text-white w-[70%] ml-8 text-4xl ">Seamless Style, Infinite Choices Your Premier Wallpaper Source</li>
+            <li class="   text-white pt-2 font-semibold text-[17px] w-[55%] ml-8 ">Highlight the seamless browsing experience and extensive choices available on your website.</li>
+         </ul>
+    </div>
+    
+    
+ 
+    <!--content-->
+      
+    <div class="">
+        
+      
+      
+      
+      
+      
+      
+         <ul class="w-[100] font-extrabold ml-[5%] mt-4">
+            <li id="Animal" class="box-border font-mono text-[30px] ">Animals</li>
+         </ul>
+        <ul class="Animal w-[100%]  border-2 grid  grid-cols-1 mt-[4%] gap-y-10 sm:grid-cols-2 sm:gap-10 md:grid-cols-4  p-5">
+          <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/andy-bodemer-HSfSpZ7VzV0-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/andy-bodemer-HSfSpZ7VzV0-unsplash.jpg" alt="">
+          </li>
+           
+          <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/daniil-komov-I430fPQy3GU-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/daniil-komov-I430fPQy3GU-unsplash.jpg" alt="">
+          </li>
+
+          <li> <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/david-clode-GBr28_RdSp4-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/david-clode-GBr28_RdSp4-unsplash.jpg" alt="">
+          </li>
+
+          <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/erik-karits-zt9o-5hQT6Y-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/erik-karits-zt9o-5hQT6Y-unsplash.jpg" alt="">
+          </li>
+           
+          <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/godefroy-chabanas-Bg64R24XdSM-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/godefroy-chabanas-Bg64R24XdSM-unsplash.jpg" alt="">
+          </li>
+        
+          <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/mark-olsen-w9crLzX52MI-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/mark-olsen-w9crLzX52MI-unsplash.jpg" alt="">
+          </li>
+
+          <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/pascal-van-de-vendel-ZxHjhBAlPS0-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/pascal-van-de-vendel-ZxHjhBAlPS0-unsplash.jpg" alt="">
+          </li>
+          
+           <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/tim-schmidbauer-AjX1v-oXP-4-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/tim-schmidbauer-AjX1v-oXP-4-unsplash.jpg" alt="">
+           </li>
+           <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/william-warby-7DtAC8ak-Qw-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/william-warby-7DtAC8ak-Qw-unsplash.jpg" alt="">
+           </li>
+           
+           <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Animal/william-warby-wxr0qT0Tgjk-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Animal/william-warby-wxr0qT0Tgjk-unsplash.jpg" alt="">
+           </li>
+          
+           
+
+          
+        </ul>
+        <ul class="">
+
+        
+        
+
+        
+        
+
+        
+       
+         <ul class="w-[100] font-extrabold ml-[5%] mt-4">
+            <li id="Nature" class=" font-mono text-[30px] ">Nature</li>
+         </ul>
+         <ul class="Nature w-[100%]  border-2 grid  grid-cols-1 mt-[4%] gap-y-10 sm:grid-cols-2 sm:gap-10 md:grid-cols-4  p-5">
+           
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/adam-kool-ndN00KmbJ1c-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/adam-kool-ndN00KmbJ1c-unsplash.jpg" alt="">
+         </li>   
+
+
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/blake-verdoorn-cssvEZacHvQ-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/blake-verdoorn-cssvEZacHvQ-unsplash.jpg" alt="">
+         </li>   
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/dave-hoefler-lsoogGC_5dg-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/dave-hoefler-lsoogGC_5dg-unsplash.jpg" alt="">
+         </li>   
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/david-marcu-78A265wPiO4-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/david-marcu-78A265wPiO4-unsplash.jpg" alt="">
+         </li>   
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/dawid-zawila--G3rw6Y02D0-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/dawid-zawila--G3rw6Y02D0-unsplash.jpg" alt="">
+         </li>   
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg" alt="">
+         </li>   
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/goutham-krishna-h5wvMCdOV3w-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/goutham-krishna-h5wvMCdOV3w-unsplash.jpg" alt="">
+
+         </li>   
+         
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/neom-I7NOiVT6jq0-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/neom-I7NOiVT6jq0-unsplash.jpg" alt="">
+         </li>
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/neom-s0A8sa9oasY-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/neom-s0A8sa9oasY-unsplash.jpg" alt=""></li>
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/neom-x4vxK4VGKX0-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/neom-x4vxK4VGKX0-unsplash.jpg" alt=""></li>
+         <li>
+            <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Nature/v2osk-1Z2niiBPg5A-unsplash.jpg" download="wallset">Download</a></p>
+            <img src="../public/wallpaper/Nature/v2osk-1Z2niiBPg5A-unsplash.jpg" alt="">
+         </li>
+         </ul>
+        </ul>
+        <ul class="w-[100] font-extrabold ml-[5%] mt-4">
+            <li id="Universe" class=" font-mono text-[30px]">Universe</li>
+         </ul>
+
+        <ul class="Universe w-[100%]  border-2 grid  grid-cols-1 mt-[4%] gap-y-10 sm:grid-cols-2 sm:gap-10 md:grid-cols-4  p-5">
+
+       <li>
+         <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Universe/andy-holmes-LUpDjlJv4_c-unsplash.jpg" download="wallset">Download</a></p>
+         <img src="../public/wallpaper/Universe/andy-holmes-LUpDjlJv4_c-unsplash.jpg" alt=""></li>
+       <li>
+         <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Universe/andy-holmes-rCbdp8VCYhQ-unsplash.jpg" download="wallset">Download</a></p>
+         <img src="../public/wallpaper/Universe/andy-holmes-rCbdp8VCYhQ-unsplash.jpg" alt=""></li>
+       <li>
+         <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Universe/ivana-cajina-asuyh-_ZX54-unsplash.jpg" download="wallset">Download</a></p>
+         <img src="../public/wallpaper/Universe/ivana-cajina-asuyh-_ZX54-unsplash.jpg" alt=""></li>
+       <li>
+         <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Universe/jeremy-thomas-E0AHdsENmDg-unsplash.jpg" download="wallset">Download</a></p>
+         <img src="../public/wallpaper/Universe/jeremy-thomas-E0AHdsENmDg-unsplash.jpg" alt=""></li>
+       <li>
+         <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Universe/nasa-rTZW4f02zY8-unsplash.jpg" download="wallset">Download</a></p>
+         <img src="../public/wallpaper/Universe/nasa-rTZW4f02zY8-unsplash.jpg" alt=""></li>
+
+        </ul>
+        
+        <ul class="w-[100] font-extrabold ml-[5%] mt-4">
+            <li id="Night" class="  font-mono text-[30px]">Night</li>
+         </ul>
+
+        <ul class="Night w-[100%]  border-2 grid  grid-cols-1 mt-[4%] gap-y-10 sm:grid-cols-2 sm:gap-10 md:grid-cols-4  p-5">
+            <li>
+               <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Night/andre-benz-PpsgIw3iWZ4-unsplash.jpg" download="wallset">Download</a></p>
+               <img src="../public/wallpaper/Night/andre-benz-PpsgIw3iWZ4-unsplash.jpg" alt=""></li>
+            <li>
+               <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Night/aron-visuals-LSFuPFE9vKE-unsplash.jpg" download="wallset">Download</a></p>
+               <img src="../public/wallpaper/Night/aron-visuals-LSFuPFE9vKE-unsplash.jpg" alt=""></li>
+            <li>
+                <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Night/guille-pozzi-SHcHVFhz7-M-unsplash.jpg" download="wallset">Download</a></p>
+               <img src="../public/wallpaper/Night/guille-pozzi-SHcHVFhz7-M-unsplash.jpg" alt=""></li>
+            <li>
+                <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Night/luca-bravo-a_hPPrncGlQ-unsplash.jpg" download="wallset">Download</a></p>
+               <img src="../public/wallpaper/Night/luca-bravo-a_hPPrncGlQ-unsplash.jpg" alt=""></li>
+            <li>
+                <p class="bg-white border-2 shadow-2xl rounded-2xl w-[7rem] pl-4 relative top-10 left-[70%]"><a href="../public/wallpaper/Night/nathan-anderson-L95xDkSSuWw-unsplash.jpg" download="wallset">Download</a></p>
+               <img src="../public/wallpaper/Night/nathan-anderson-L95xDkSSuWw-unsplash.jpg" alt=""></li>
+        </ul>
+         
+         
+         
+       
+       
+      
+      
+       
+       
+       
+    </div>
+   
+   
+</div>
+
+<!--footer-->
+<div id="About" class="grid grid-cols-2 grid-rows-2 gap-10 p-5 bg-slate-300 sm:flex sm:flex-row sm:justify-center sm:space-x-[20%]">
+   <div >
+      <ul class="text-black ">
+         <li class="font-semibold">Copyright Aniket</li>
+         <br>
+         
+      <ul>
+   </div>
+   <div >
+      <ul>
+         <center><li class="font-semibold">Contact us</li><br></center>
+              
+         <li class="font-thin">aniket.mankar1904@gmail.com</li>
+      </ul>
+   </div>
+   <div class="col-span-2">
+      
+         <center>
+            <ul>
+               <li>
+                  <p class="font-semibold">About</p>
+                  <br>
+                  <p class="font-thin">Wallset is a prototype website not for deployment <br> use for download  high quality photos  </p>
+               </li>
+            </ul>
+         </center>
+         
+         
+         
+      
+   </div>
+</div>
+   
+     
+</body>
+</html>
